@@ -43,8 +43,8 @@ U15 - {U17,U18,U19}
 ---> i.e. we should not be in hurry to find results between them as we have to update our results on regular basis, where is User i and User j might not be friends till now but after few days they might follow each other so due to this we have to update our results on regualr basis but no need to be in hurry for fast results
 
 ### B (imp) : Find Probability of links which might be usefull to recommend highest prob links to user
-----> eg: User 1 --------->>> (User 10 P(0.8), User 17 P(0.9), User 56 P(0.65), .........)
-#### So these probablity scores might help us to find wheater User i might follow them or not
+----> eg: User 1 --------->>> (User 10  Prob(0.8), User 17  Prob(0.9), User 56  Prob(0.65), .........)
+So these probablity scores might help us to find wheater User i might follow them or not
 #### Here's the small example of Instagram follow recommendation interface to get some clarity:
 
 ![image](https://user-images.githubusercontent.com/61958476/117768437-0242eb80-b250-11eb-9709-f02f448100d8.png)
