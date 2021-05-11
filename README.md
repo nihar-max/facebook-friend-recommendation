@@ -51,7 +51,7 @@ So these probablity scores might help us to find wheater User i might follow the
 
 ## 3. Exploratory Data Analysis (Part 1) Basic Stats and Graph Visulaization
 ### Basic Overviw:
-            --if not os.path.isfile('data/after_eda/train_woheader.csv'):   # If this file is not present then do this below steps
+              if not os.path.isfile('data/after_eda/train_woheader.csv'):   # If this file is not present then do this below steps
                     traincsv = pd.read_csv("data/tran.csv")
                     print(traincsv[traincsv.isna().any(1)])
                     print(traincsv.info())
@@ -60,6 +60,8 @@ So these probablity scores might help us to find wheater User i might follow the
               else:
                     g = nx.read_edgelist('data/after_eda/train_woheader.csv',delimiter = ",",create_using = nx.DiGraph(),nodetype = int )
                     print(nx.info(g))
+
+
 
 
 
