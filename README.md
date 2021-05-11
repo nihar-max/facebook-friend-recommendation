@@ -15,7 +15,7 @@ Taken data from facebook's recruting challenge on kaggle https://www.kaggle.com/
     - source_node         int64  
     - destination_node    int64  
  
-## type of Machine Learning Problem:
+## Type of Machine Learning Problem:
 
 ### Case 1
     - If user i and User j  have edge between them 
@@ -27,3 +27,24 @@ So if any of these cases staisfies  Output (Yi = 1)
 else:
     Yi = 0
 ### This is Binary Classification problem
+
+## How to featurize this data:
+![image](https://user-images.githubusercontent.com/61958476/117766973-fa824780-b24d-11eb-88dd-5ac30fd38739.png)
+
+### Task predict if there is a edge between [User 14 and User 15]
+U14 - {U16,U17,U18}  
+U15 - {U17,U18,U19}  
+
+#### Out of these set of vertices Common vertices are (u17,u18) so as there are higher number of common vertices between them chances of having edge between U14 and U15 can be high 
+### Note : This is one of the featurization technique which can help us there might be more to explore as we go forward
+
+## Objective and Constraints
+### A: No Low Latency is Required 
+---> i.e. we should not be in hurry to find results between them as we have to update our results on regular basis, where is User i and User j might not be friends till now but after few days they might follow each other so due to this we have to update our results on regualr basis but no need to be in hurry for fast results
+
+### B (imp) : Find Probability of links which might be usefull to recommend highest prob links to user
+---->
+
+
+
+
