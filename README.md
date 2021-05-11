@@ -60,6 +60,25 @@ So these probablity scores might help us to find wheater User i might follow the
               else:
                     g = nx.read_edgelist('data/after_eda/train_woheader.csv',delimiter = ",",create_using = nx.DiGraph(),nodetype = int )
                     print(nx.info(g))
+                    
+ ![image](https://user-images.githubusercontent.com/61958476/117770467-94e48a00-b252-11eb-90d4-6782fb3bc124.png)
+ 
+### Basic Visualization using Subset 
+                     if not os.path.isfile("train_woheader_sample.csv"):
+                    # Taking only first 30 rows with no headers
+                        pd.read_csv("data/train.csv",nrows = 30).to_csv('train_woheader_sample.csv',header = False,index = False)
+    
+                    subgraph = nx.read_edgelist('train_woheader_sample.csv',delimiter=',',create_using=nx.DiGraph(),nodetype=int)
+
+                     pos=nx.spring_layout(subgraph)
+
+                    nx.draw(subgraph,pos,node_color='#A0CBE2',edge_color='#00bb5e',width=1,edge_cmap=plt.cm.Blues,with_labels=True)
+                    plt.savefig("graph_sample.pdf")
+                     print(nx.info(subgraph))
+
+![image](https://user-images.githubusercontent.com/61958476/117770753-f147a980-b252-11eb-857a-36fef4c516c6.png)
+
+
 
 
 
