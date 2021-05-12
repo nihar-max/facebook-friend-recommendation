@@ -78,6 +78,45 @@ So these probablity scores might help us to find wheater User i might follow the
 
 ![image](https://user-images.githubusercontent.com/61958476/117770753-f147a980-b252-11eb-857a-36fef4c516c6.png)
 
+### Q. Total Number of Followers for each person? (In_Degree) ?
+        indegree_dist = list(dict(g.in_degree()).values())
+        indegree_dist.sort()
+        plt.figure(figsize=(10,6))
+        plt.plot(indegree_dist)
+        plt.xlabel('Index No')
+        plt.ylabel('No Of Followers')
+        plt.show()
+![image](https://user-images.githubusercontent.com/61958476/117930072-2e776e80-b31b-11eb-84e4-0fefd7ee4f7a.png)
+
+##### We can see that From 0 to 1.6 million (Index) there are very less number of users less than 100 and then suddenly there is massive growth where one of the index has more than 500 followers
+
+#### Calculate percentile 
+     for i in range(10,110,10):
+         print(99+(i/100),'percentile value is',np.percentile(indegree_dist,99+(i/100)))
+         
+
+![image](https://user-images.githubusercontent.com/61958476/117930444-9e85f480-b31b-11eb-9d86-248ce52570dd.png)
+
+##### Conclusion: Over 99.9% of people are having less than 112 Followers
+
+
+### Q. No of people each person is following (Out_Degree) ?
+    outdegree_dist = list(dict(g.out_degree()).values())
+    outdegree_dist.sort()
+    plt.figure(figsize=(10,6))
+    plt.plot(outdegree_dist)
+    plt.xlabel('Index No')
+    plt.ylabel('No Of Followers')
+    plt.show()
+    
+![image](https://user-images.githubusercontent.com/61958476/117930548-c412fe00-b31b-11eb-8ed7-6f96caa3302c.png)
+
+#### Calculate percentile 
+![image](https://user-images.githubusercontent.com/61958476/117930658-e573ea00-b31b-11eb-9a51-d7db7f34dcde.png)
+
+##### Conclusion: Over 99.9% of people are following less than 123 peoples
+
+
 
 
 
