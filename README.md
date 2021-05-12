@@ -116,6 +116,7 @@ So these probablity scores might help us to find wheater User i might follow the
 
 ##### Conclusion: Over 99.9% of people are following less than 123 peoples
 
+#### Observations: So the key take away from all this analysis is that there are only few people who have max following + followers rest all have very few followers & following so in this case we have high Outliers
 
 
 
