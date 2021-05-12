@@ -86,7 +86,8 @@ So these probablity scores might help us to find wheater User i might follow the
         plt.xlabel('Index No')
         plt.ylabel('No Of Followers')
         plt.show()
-![image](https://user-images.githubusercontent.com/61958476/117930072-2e776e80-b31b-11eb-84e4-0fefd7ee4f7a.png)
+![image](https://user-images.githubusercontent.com/61958476/117931077-5d421480-b31c-11eb-99bf-f7114867c218.png)
+
 
 ##### We can see that From 0 to 1.6 million (Index) there are very less number of users less than 100 and then suddenly there is massive growth where one of the index has more than 500 followers
 
@@ -109,8 +110,7 @@ So these probablity scores might help us to find wheater User i might follow the
     plt.ylabel('No Of Followers')
     plt.show()
     
-![image](https://user-images.githubusercontent.com/61958476/117930548-c412fe00-b31b-11eb-8ed7-6f96caa3302c.png)
-
+![image](https://user-images.githubusercontent.com/61958476/117930914-2f5cd000-b31c-11eb-94dd-b64f3bc4076d.png)
 #### Calculate percentile 
 ![image](https://user-images.githubusercontent.com/61958476/117930658-e573ea00-b31b-11eb-9a51-d7db7f34dcde.png)
 
