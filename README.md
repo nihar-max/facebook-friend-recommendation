@@ -136,6 +136,10 @@ So these probablity scores might help us to find wheater User i might follow the
 Jaccard distance for X & y = 2/4 
 
        Note: Higher the Jaccard Distance b/w U0 and U1 chances of having edge b/w them is higher
+       
+### 2. Cosine Simmilarity
+
+   #### 𝐶𝑜𝑠𝑖𝑛𝑒𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒=|𝑋∩𝑌||𝑋|⋅|𝑌|
 
 
 
