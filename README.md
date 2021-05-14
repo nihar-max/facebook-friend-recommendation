@@ -138,8 +138,8 @@ Jaccard distance for X & y = 2/4
        Note: Higher the Jaccard Distance b/w U0 and U1 chances of having edge b/w them is higher
        
 ### 2. Cosine Simmilarity
+![image](https://user-images.githubusercontent.com/61958476/118234419-ed18c780-b4b0-11eb-85c8-5f103045f7ba.png)
 
-   #### 𝐶𝑜𝑠𝑖𝑛𝑒𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒=|𝑋∩𝑌||𝑋|⋅|𝑌|
 
 
 
