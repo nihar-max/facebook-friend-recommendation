@@ -140,6 +140,12 @@ Jaccard distance for X & y = 2/4
 ### 2. Cosine Simmilarity
 ![image](https://user-images.githubusercontent.com/61958476/118234419-ed18c780-b4b0-11eb-85c8-5f103045f7ba.png)
 
+### 3. Page Rank
+![image](https://user-images.githubusercontent.com/61958476/118247711-1fcabc00-b4c1-11eb-91fa-e0a042309164.png)
+##### How page rank works?
+    Given a Directed graph--- page rank algorithm --- > gives each vertex/node (ui) ---> Score 
+    That score represent how imp the vertex is
+
 
 
 
