@@ -118,6 +118,26 @@ So these probablity scores might help us to find wheater User i might follow the
 
 #### Observations: So the key take away from all this analysis is that there are only few people who have max following + followers rest all have very few followers & following so in this case we have high Outliers
 
+## 4. Featurizartion 
+### Note: After doing all the basic analysis and Train Test split we have source node , destination node and output so from that we cant apply ML models 
+### So we have to add some more relevent features
+
+## 4.1 Similarity measure 
+### 1. jaccard Distance 
+![image](https://user-images.githubusercontent.com/61958476/118234178-9f03c400-b4b0-11eb-9aff-764ed5e5375d.png)
+
+#### How Jaccard Distance works?
+![image](https://user-images.githubusercontent.com/61958476/118234013-5cda8280-b4b0-11eb-817f-df8140e462ce.png)
+
+#### Lets: Create 2 Sets X & Y
+        X is set of followers User 0 has -- > {u2, u3, u4}
+        Y is set of followers User 1 has -- > {u3, u4, u5}
+    
+Jaccard distance for X & y = 2/4 
+
+       Note: Higher the Jaccard Distance b/w U0 and U1 chances of having edge b/w them is higher
+
+
 
 
 
