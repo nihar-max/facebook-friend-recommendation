@@ -153,6 +153,11 @@ Jaccard distance for X & y = 2/4
     From Ui to Uj ---> [3,4,5,Uj] length = 4
 ##### So we will take shortest path from Ui to Uj with length = 2   
 
+### 5 Adamic/ Adar Index
+$$A(x,y)=\sum_{u \in N(x) \cap N(y)}\frac{1}{log(|N(u)|)}$$
+
+##### Source: https://en.wikipedia.org/wiki/Adamic/Adar_in
+
 
 
 
