@@ -154,7 +154,7 @@ Jaccard distance for X & y = 2/4
 ##### So we will take shortest path from Ui to Uj with length = 2   
 
 ### 5 Adamic/ Adar Index
-![image](https://user-images.githubusercontent.com/61958476/118351010-1d2a9e00-b577-11eb-85e1-cf1344386d78.png)
+![image](https://user-images.githubusercontent.com/61958476/118351071-6844b100-b577-11eb-90de-ae66c68ca5f0.png)
 
 ##### Source: https://en.wikipedia.org/wiki/Adamic/Adar_in
 
