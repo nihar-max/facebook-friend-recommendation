@@ -146,7 +146,12 @@ Jaccard distance for X & y = 2/4
     Given a Directed graph--- page rank algorithm --- > gives each vertex/node (ui) ---> Score 
     That score represent how imp the vertex is
 
-
+### 4. Shortest Path
+![image](https://user-images.githubusercontent.com/61958476/118349495-a38eb200-b56e-11eb-9de4-f084b20d1f19.png)
+##### Shortest path from Ui to Uj:
+    From Ui to Uj ---> [2,Uj]     length = 2
+    From Ui to Uj ---> [3,4,5,Uj] length = 4
+##### So we will take shortest path from Ui to Uj with length = 2   
 
 
 
