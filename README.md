@@ -162,7 +162,7 @@ Jaccard distance for X & y = 2/4
 ## Apply Machine Learning Model for classification:
 ### Model used : Random forest
 ### Feature importance :
-![image](https://user-images.githubusercontent.com/61958476/118778207-7a8c5b00-b8a7-11eb-8c81-b4170a85dafc.png)
+![image](https://user-images.githubusercontent.com/61958476/118778561-dbb42e80-b8a7-11eb-8857-deecc0683810.png)
 
 # Conclusion:
 So we the main task of this Case study was featurization more than modelling, we have added many graph based features some of them using inbilt libraries called networkx and finally applied Random forest classifier with 2 hyper parameters and also observed feature importance on it
