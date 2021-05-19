@@ -161,6 +161,8 @@ Jaccard distance for X & y = 2/4
 
 ## Apply Machine Learning Model for classification:
 ### Model used : Random forest
+Train f1 score 0.9422858984622743
+Test f1 score 0.9272375772768796
 ### Feature importance :
 ![image](https://user-images.githubusercontent.com/61958476/118778561-dbb42e80-b8a7-11eb-8857-deecc0683810.png)
 
